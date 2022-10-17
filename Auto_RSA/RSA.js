@@ -41,50 +41,49 @@ function robinhood(nameInput){
 }
 function sofiInvest(nameInput){
     appActivate("com.sofi.mobile");
-    usleep(4413110.54);
-    touchDown(1, 873.72, 2488.87);
-    usleep(164795.21);
-    touchUp(1, 873.72, 2488.87);
-    usleep(3647592.83);
+    usleep(5413110.54);
+    // Click invest
+    touchDown(4, 865.02, 2488.87);
+    usleep(198817.83);
+    touchUp(4, 865.02, 2488.87);
 
-    touchDown(2, 785.76, 1662.32);
-    usleep(265137.29);
-    touchUp(2, 785.76, 1662.32);
-    usleep(2750031.12);
+    // Click Search
+    usleep(157156.50);
+    touchDown(1, 783.83, 1662.32);
+    usleep(157156.50);
+    touchUp(1, 783.83, 1662.32);
+    usleep(3538421.58);
 
-    touchDown(2, 795.43, 1640.21);
-    usleep(107878.46);
-    touchUp(2, 795.43, 1640.21);
-    usleep(3696942.75);
+    touchDown(4, 334.40, 370.62);
+    usleep(124159.38);
+    touchUp(4, 334.40, 370.62);
+    usleep(257156.50);
 
-    touchDown(3, 364.36, 336.98);
-    usleep(132487.00);
-    touchUp(3, 364.36, 336.98);
-
+    // Enter Ticker
     usleep(9000000);
     inputText(nameInput.value);
     usleep(1900000);
 
-    touchDown(1, 385.62, 679.14);
-    usleep(315818.79);
-    touchUp(1, 385.62, 679.14);
-    usleep(4344207.42);
+    // Click on Ticker and Input One Share
+    touchDown(4, 577.96, 667.61);
+    usleep(182090.50);
+    touchUp(4, 577.96, 667.61);
+    usleep(3904058.25);
 
-    touchDown(2, 329.57, 2457.16);
-    usleep(190658.42);
-    touchUp(2, 329.57, 2457.16);
-    usleep(3786844.12);
+    touchDown(3, 327.63, 2449.45);
+    usleep(157480.83);
+    touchUp(3, 327.63, 2449.45);
+    usleep(5298242.50);
 
-    touchDown(4, 201.02, 1897.79);
-    usleep(174465.62);
-    touchUp(4, 201.02, 1897.79);
-    usleep(2059654.25);
+    touchDown(2, 223.25, 1858.38);
+    usleep(181406.88);
+    touchUp(2, 223.25, 1858.38);
 
-    touchDown(6, 1054.46, 1740.17);
-    usleep(215401.38);
-    touchUp(6, 1054.46, 1740.17);
-
-    alert("Hey there sexy, time to manually buy the stock. Make sure it's correct and buy it. Pat yourself on the back, we did it. Automating RSA.");
+    // Review
+    touchDown(5, 1048.66, 1741.15);
+    usleep(141128.46);
+    touchUp(5, 1048.66, 1741.15);
+    alert("Review the purchase and confirm it is correct before buying.");
     usleep(23900000);
 }
 const label = { type: CONTROLLER_TYPE.LABEL, text: "Please input the following information:" }
