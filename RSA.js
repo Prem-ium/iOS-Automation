@@ -2,7 +2,7 @@ const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp } = a
 
 function robinhood(nameInput){
     appActivate("com.robinhood.release.Robinhood");
-
+    usleep(4292335.50);
     touchDown(6, 1023.53, 230.30);
     usleep(182335.50);
     touchUp(6, 1023.53, 230.30);
@@ -12,7 +12,31 @@ function robinhood(nameInput){
     usleep(124142.04);
     touchUp(1, 275.44, 346.62);
 
-    keyDown(nameInput.value);
+    inputText(nameInput.value);
+
+    touchDown(2, 135.29, 653.17);
+    usleep(140718.62);
+    touchUp(2, 135.29, 653.17);
+    usleep(7964773.12);
+
+    touchDown(6, 858.25, 2317.79);
+    usleep(165717.67);
+    touchUp(6, 858.25, 2317.79);
+    usleep(3603844.21);
+
+    touchDown(4, 210.68, 1917.97);
+    usleep(207691.00);
+    touchUp(4, 210.68, 1917.97);
+    usleep(2474692.29);
+
+    touchDown(3, 788.66, 1705.59);
+    usleep(174623.67);
+    touchUp(3, 788.66, 1705.59);
+
+    alert("Hey there sexy, time to manually buy the stock. Make sure it's correct and buy it. Pat yourself on the back, we did it. Automating RSA.");
+    usleep(180000000);
+    usleep(180000000);
+    usleep(180000000);
 }
 const label = { type: CONTROLLER_TYPE.LABEL, text: "Please input the following information:" }
 const nameInput = { type: CONTROLLER_TYPE.INPUT, title: "Ticker:", key: "Ticker", value: "" }
@@ -21,7 +45,7 @@ const public = { type: CONTROLLER_TYPE.SWITCH, title: "Use Public?:", key: "Publ
 const sofi = { type: CONTROLLER_TYPE.SWITCH, title: "Use SOFI?:", key: "SofiBuy", value: 1 }
 const hood = { type: CONTROLLER_TYPE.SWITCH, title: "Use Robinhood?:", key: "RobinBuy", value: 1 }
 
-console.log(nameInput.value)
+
 // It's an option for users to determine weather the inputs should be remembered, if you use this control in the dialog.
 //const remember = { type: CONTROLLER_TYPE.REMEMBER, on: false }
 
@@ -48,7 +72,8 @@ const orientations = [INTERFACE_ORIENTATION_TYPE.PORTRAIT, INTERFACE_ORIENTATION
 const result = at.dialog({ controls, orientations });
 
 if (result == 1) {
-    alert("name:%s, birthday:%s, gender:%d", nameInput.value, positionPicker.value, developerSwitch.value)
+    //alert("name:%s, birthday:%s, gender:%d", nameInput.value, positionPicker.value, developerSwitch.value)
+    alert("running");
     usleep(3903428.46);
     robinhood(nameInput)
 } else if (result == 2) {
