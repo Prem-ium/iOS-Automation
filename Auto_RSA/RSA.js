@@ -39,6 +39,54 @@ function robinhood(nameInput){
     alert("Hey there sexy, time to manually buy the stock. Make sure it's correct and buy it. Pat yourself on the back, we did it. Automating RSA.");
     usleep(23900000);
 }
+function sofiInvest(nameInput){
+    appActivate("com.sofi.mobile");
+    usleep(4413110.54);
+    touchDown(1, 873.72, 2488.87);
+    usleep(164795.21);
+    touchUp(1, 873.72, 2488.87);
+    usleep(3647592.83);
+
+    touchDown(2, 785.76, 1662.32);
+    usleep(265137.29);
+    touchUp(2, 785.76, 1662.32);
+    usleep(2750031.12);
+
+    touchDown(2, 795.43, 1640.21);
+    usleep(107878.46);
+    touchUp(2, 795.43, 1640.21);
+    usleep(3696942.75);
+
+    touchDown(3, 364.36, 336.98);
+    usleep(132487.00);
+    touchUp(3, 364.36, 336.98);
+
+    usleep(9000000);
+    inputText(nameInput.value);
+    usleep(1900000);
+
+    touchDown(1, 385.62, 679.14);
+    usleep(315818.79);
+    touchUp(1, 385.62, 679.14);
+    usleep(4344207.42);
+
+    touchDown(2, 329.57, 2457.16);
+    usleep(190658.42);
+    touchUp(2, 329.57, 2457.16);
+    usleep(3786844.12);
+
+    touchDown(4, 201.02, 1897.79);
+    usleep(174465.62);
+    touchUp(4, 201.02, 1897.79);
+    usleep(2059654.25);
+
+    touchDown(6, 1054.46, 1740.17);
+    usleep(215401.38);
+    touchUp(6, 1054.46, 1740.17);
+
+    alert("Hey there sexy, time to manually buy the stock. Make sure it's correct and buy it. Pat yourself on the back, we did it. Automating RSA.");
+    usleep(23900000);
+}
 const label = { type: CONTROLLER_TYPE.LABEL, text: "Please input the following information:" }
 const nameInput = { type: CONTROLLER_TYPE.INPUT, title: "Ticker:", key: "Ticker", value: "" }
 //const positionPicker = { type: CONTROLLER_TYPE.PICKER, title: "Position:", key: "Position", value: "CEO", options: ["CEO", "CTO", "CFO", "CXO"] }
@@ -76,6 +124,9 @@ if (result == 1) {
     //alert("name:%s, birthday:%s, gender:%d", nameInput.value, positionPicker.value, developerSwitch.value)
     alert("Starting the script.");
     usleep(3903428.46);
+    if (sofi.value == 1) {
+        sofiInvest(nameInput)
+    }
     if (hood.value == 1) {
         robinhood(nameInput)
     }
