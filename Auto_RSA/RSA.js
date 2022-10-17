@@ -2,7 +2,7 @@ const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp, inpu
 
 function robinhood(nameInput){
     appActivate("com.robinhood.release.Robinhood");
-    // Literally takes lines 6-35 to ensure search bar is active...
+    // Literally takes lines 6-69 to ensure search bar is active...
     touchDown(2, 1003.23, 203.40);
     usleep(597650.50);
     touchMove(2, 994.53, 195.73);
@@ -34,6 +34,41 @@ function robinhood(nameInput){
     usleep(7813.29);
     touchUp(2, 971.34, 217.83);
 
+    touchDown(2, 219.38, 356.22);
+    usleep(264664.75);
+    touchUp(2, 219.38, 356.22);
+    usleep(399800.21);
+
+    touchDown(2, 188.45, 335.06);
+    usleep(99533.88);
+    touchUp(2, 188.45, 335.06);
+    usleep(182716.58);
+
+    touchDown(2, 169.12, 353.35);
+    usleep(107543.54);
+    touchUp(2, 169.12, 353.35);
+    usleep(99994.75);
+
+    touchDown(2, 155.59, 362.95);
+    usleep(99705.08);
+    touchUp(2, 155.59, 362.95);
+    usleep(99940.29);
+
+    touchDown(2, 158.49, 356.22);
+    usleep(65762.92);
+    touchUp(2, 158.49, 356.22);
+    usleep(108571.17);
+
+    touchDown(2, 155.59, 362.00);
+    usleep(90980.08);
+    touchUp(2, 155.59, 362.00);
+    usleep(681908.50);
+
+    touchDown(2, 193.29, 355.28);
+    usleep(74220.00);
+    touchUp(2, 193.29, 355.28);
+    
+    // Input Ticker Name
     inputText(nameInput.value);
     usleep(1900000);
     touchDown(2, 135.29, 653.17);
