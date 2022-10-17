@@ -2,7 +2,7 @@ const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp } = a
 
 function robinhood(nameInput){
     appActivate("com.robinhood.release.Robinhood");
-    usleep(4292335.50);
+    usleep(1992335.50);
     touchDown(6, 1023.53, 230.30);
     usleep(182335.50);
     touchUp(6, 1023.53, 230.30);
@@ -34,9 +34,7 @@ function robinhood(nameInput){
     touchUp(3, 788.66, 1705.59);
 
     alert("Hey there sexy, time to manually buy the stock. Make sure it's correct and buy it. Pat yourself on the back, we did it. Automating RSA.");
-    usleep(180000000);
-    usleep(180000000);
-    usleep(180000000);
+    usleep(23000000);
 }
 const label = { type: CONTROLLER_TYPE.LABEL, text: "Please input the following information:" }
 const nameInput = { type: CONTROLLER_TYPE.INPUT, title: "Ticker:", key: "Ticker", value: "" }
@@ -73,9 +71,11 @@ const result = at.dialog({ controls, orientations });
 
 if (result == 1) {
     //alert("name:%s, birthday:%s, gender:%d", nameInput.value, positionPicker.value, developerSwitch.value)
-    alert("running");
+    alert("Starting the script.");
     usleep(3903428.46);
-    robinhood(nameInput)
+    if (hood.value == 1) {
+        robinhood(nameInput)
+    }
 } else if (result == 2) {
     alert("Cancelled? Dialog returned: %s", result)
 }
