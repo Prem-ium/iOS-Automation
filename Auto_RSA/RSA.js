@@ -41,18 +41,17 @@ function robinhood(nameInput){
 }
 function sofiInvest(nameInput){
     appActivate("com.sofi.mobile");
-    usleep(5413110.54);
+    usleep(7913110.54);
     // Click invest
     touchDown(4, 865.02, 2488.87);
     usleep(198817.83);
     touchUp(4, 865.02, 2488.87);
-
-    // Click Search
-    usleep(157156.50);
+    // Search
+    usleep(257156.50 + 157156.50);
     touchDown(1, 783.83, 1662.32);
     usleep(157156.50);
     touchUp(1, 783.83, 1662.32);
-    usleep(3538421.58);
+    usleep(3538421.58 + 157156.50);
 
     touchDown(4, 334.40, 370.62);
     usleep(124159.38);
@@ -85,6 +84,9 @@ function sofiInvest(nameInput){
     touchUp(5, 1048.66, 1741.15);
     alert("Review the purchase and confirm it is correct before buying.");
     usleep(23900000);
+}
+function publicInvest(nameInput){
+    appActivate("com.t3securities.matador");
 }
 const label = { type: CONTROLLER_TYPE.LABEL, text: "Please input the following information:" }
 const nameInput = { type: CONTROLLER_TYPE.INPUT, title: "Ticker:", key: "Ticker", value: "" }
@@ -129,13 +131,10 @@ if (result == 1) {
     if (hood.value == 1) {
         robinhood(nameInput)
     }
-    /*
-    if (sofi.value == 1) {
-        sofi(nameInput)
-    }
     if (public.value == 1) {
-        public(nameInput)
-    }*/
+        publicInvest(nameInput)
+    }
+
 } else if (result == 2) {
-    alert("You canceled the script.");
+    alert("Script was stopped by cancel button.");
 }
