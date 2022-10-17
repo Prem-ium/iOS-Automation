@@ -9,8 +9,9 @@ function robinhood(nameInput){
     usleep(3903428.46);
 
     touchDown(1, 275.44, 346.62);
-    usleep(124142.04);
+    usleep(144142.04);
     touchUp(1, 275.44, 346.62);
+    usleep(1992335.75);
 
     inputText(nameInput.value);
     usleep(1900000);
@@ -58,7 +59,7 @@ collectInputs = Boolean type specifying wheather the dialog should collect the i
 */
 
 const submitBtn = { type: CONTROLLER_TYPE.BUTTON, title: "START", width: 1.0, flag: 1, collectInputs: true }
-const cancelBtn = { type: CONTROLLER_TYPE.BUTTON, title: "START", width: 1.0, flag: 2, collectInputs: true }
+const cancelBtn = { type: CONTROLLER_TYPE.BUTTON, title: "STOP", width: 1.0, flag: 2, collectInputs: true }
 
 const controls = [label, nameInput, public, sofi, hood, submitBtn, cancelBtn]
 
@@ -76,6 +77,13 @@ if (result == 1) {
     if (hood.value == 1) {
         robinhood(nameInput)
     }
+    /*
+    if (sofi.value == 1) {
+        sofi(nameInput)
+    }
+    if (public.value == 1) {
+        public(nameInput)
+    }*/
 } else if (result == 2) {
-    alert("Cancelled? Dialog returned: %s", result)
+    alert("You canceled the script.");
 }
