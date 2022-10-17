@@ -10,26 +10,31 @@ function robinhood(nameInput){
     touchUp(5, 1026.43, 226.49);
     usleep(9000000);
     inputText(nameInput.value);
-
     usleep(1900000);
-    touchDown(2, 135.29, 653.17);
-    usleep(540718.62);
-    touchUp(2, 135.29, 653.17);
-    usleep(7964773.12);
 
-    touchDown(6, 858.25, 2317.79);
-    usleep(165717.67);
-    touchUp(6, 858.25, 2317.79);
-    usleep(3603844.21);
+    touchDown(6, 261.91, 636.85);
+    usleep(306766.88);
+    touchUp(6, 261.91, 636.85);
+    usleep(6320678.46);
 
-    touchDown(4, 210.68, 1917.97);
-    usleep(207691.00);
-    touchUp(4, 210.68, 1917.97);
-    usleep(2474692.29);
+    touchDown(2, 884.35, 2342.77);
+    usleep(115287.25);
+    touchUp(2, 884.35, 2342.77);
+    usleep(1038961.75);
 
-    touchDown(3, 788.66, 1705.59);
-    usleep(174623.67);
-    touchUp(3, 788.66, 1705.59);
+    touchDown(5, 877.58, 2170.75);
+    usleep(248759.25);
+    touchUp(5, 877.58, 2170.75);
+    usleep(2034980.25);
+
+    touchDown(3, 212.62, 1897.79);
+    usleep(207430.08);
+    touchUp(3, 212.62, 1897.79);
+    usleep(1354136.58);
+
+    touchDown(1, 692.01, 1705.59);
+    usleep(231581.58);
+    touchUp(1, 692.01, 1705.59);
 
     alert("Hey there sexy, time to manually buy the stock. Make sure it's correct and buy it. Pat yourself on the back, we did it. Automating RSA.");
     usleep(23900000);
