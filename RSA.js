@@ -1,14 +1,19 @@
-// --------------------------------------
-// Information of recording
-// Time: 2022-10-10 11:15:32
-// Resolution: 1242, 2688
-// Front most app: Taco Bell
-// Orientation of front most app: Portrait
-// --------------------------------------
-
-
 const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp } = at
 
+function robinhood(nameInput){
+    appActivate("com.robinhood.release.Robinhood");
+
+    touchDown(6, 1023.53, 230.30);
+    usleep(182335.50);
+    touchUp(6, 1023.53, 230.30);
+    usleep(3903428.46);
+
+    touchDown(1, 275.44, 346.62);
+    usleep(124142.04);
+    touchUp(1, 275.44, 346.62);
+
+    keyDown(nameInput.value);
+}
 const label = { type: CONTROLLER_TYPE.LABEL, text: "Please input the following information:" }
 const nameInput = { type: CONTROLLER_TYPE.INPUT, title: "Ticker:", key: "Ticker", value: "" }
 //const positionPicker = { type: CONTROLLER_TYPE.PICKER, title: "Position:", key: "Position", value: "CEO", options: ["CEO", "CTO", "CFO", "CXO"] }
@@ -30,9 +35,10 @@ flag = Integer type of button flag for identifying which button is tapped.
 collectInputs = Boolean type specifying wheather the dialog should collect the inputs while this button is tapped.
 */
 
-const submitBtn = { type: CONTROLLER_TYPE.BUTTON, title: "Button 4", width: 1.0, flag: 1, collectInputs: true }
+const submitBtn = { type: CONTROLLER_TYPE.BUTTON, title: "START", width: 1.0, flag: 1, collectInputs: true }
+const cancelBtn = { type: CONTROLLER_TYPE.BUTTON, title: "START", width: 1.0, flag: 2, collectInputs: true }
 
-const controls = [label, nameInput, public, sofi, hood, submitBtn]
+const controls = [label, nameInput, public, sofi, hood, submitBtn, cancelBtn]
 
 // Pop up the dialog. After popping, the script will suspend waiting for user input until any button is tapped, then returns the flag of tapped button.
 
@@ -43,6 +49,8 @@ const result = at.dialog({ controls, orientations });
 
 if (result == 1) {
     alert("name:%s, birthday:%s, gender:%d", nameInput.value, positionPicker.value, developerSwitch.value)
-} else {
-    alert("Dialog returned: %s", result)
+    usleep(3903428.46);
+    robinhood(nameInput)
+} else if (result == 2) {
+    alert("Cancelled? Dialog returned: %s", result)
 }
