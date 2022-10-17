@@ -1,4 +1,4 @@
-const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp } = at
+const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp, inputText } = at
 
 function robinhood(nameInput){
     appActivate("com.robinhood.release.Robinhood");
@@ -13,9 +13,9 @@ function robinhood(nameInput){
     touchUp(1, 275.44, 346.62);
 
     inputText(nameInput.value);
-
+    usleep(1900000);
     touchDown(2, 135.29, 653.17);
-    usleep(140718.62);
+    usleep(540718.62);
     touchUp(2, 135.29, 653.17);
     usleep(7964773.12);
 
@@ -34,7 +34,7 @@ function robinhood(nameInput){
     touchUp(3, 788.66, 1705.59);
 
     alert("Hey there sexy, time to manually buy the stock. Make sure it's correct and buy it. Pat yourself on the back, we did it. Automating RSA.");
-    usleep(23000000);
+    usleep(23900000);
 }
 const label = { type: CONTROLLER_TYPE.LABEL, text: "Please input the following information:" }
 const nameInput = { type: CONTROLLER_TYPE.INPUT, title: "Ticker:", key: "Ticker", value: "" }
@@ -65,7 +65,7 @@ const controls = [label, nameInput, public, sofi, hood, submitBtn, cancelBtn]
 // Pop up the dialog. After popping, the script will suspend waiting for user input until any button is tapped, then returns the flag of tapped button.
 
 // What orientations the dialog could be, it's optional
-const orientations = [INTERFACE_ORIENTATION_TYPE.PORTRAIT, INTERFACE_ORIENTATION_TYPE.LANDSCAPE_LEFT, INTERFACE_ORIENTATION_TYPE.LANDSCAPE_RIGHT];
+const orientations = [INTERFACE_ORIENTATION_TYPE.PORTRAIT];
 
 const result = at.dialog({ controls, orientations });
 
