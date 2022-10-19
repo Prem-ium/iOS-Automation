@@ -1,140 +1,127 @@
-// --------------------------------------
-// Information of recording
-// Front most app: Govee Home
-// Orientation of front most app: Portrait
-// --------------------------------------
+// Purpose: Automate Goove comments and video uploads daily.
+// You must have videos within the very first folder/photo album you wish to automate uploading.
+// Random comments are generated every run.
+// Comments and Uploads Videos-- Commenting on 'topics' is not fully guaranteed.
 
-// Purpose: Automate Goove comments and video uploads daily. The script relies on videos being added to the first allbum on iOS.  
-const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp } = at
+const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp, inputText } = at
+
+let comments = ["Nice", "Awesome", "Woah", "cool", "interesting"];
 
 appActivate("com.ihoment.GoVeeSensor");
+usleep(1834951.00);
 
+touchDown(6, 620.49, 2469.63);
+usleep(90283.33);
+touchUp(6, 620.49, 2469.63);
+usleep(1014553.17);
 
-touchDown(3, 601.16, 2478.29);
-usleep(132523.29);
-touchUp(3, 601.16, 2478.29);
-usleep(1030309.58);
+touchDown(3, 366.29, 369.67);
+usleep(82517.83);
+touchUp(3, 366.29, 369.67);
+usleep(1021875.96);
 
-touchDown(3, 602.12, 2482.14);
-usleep(98305.83);
-touchUp(3, 602.12, 2482.14);
-usleep(458193.46);
+touchDown(4, 547.03, 785.82);
+usleep(82641.21);
+touchUp(4, 547.03, 785.82);
+usleep(656178.88);
 
-touchDown(3, 595.36, 2478.29);
-usleep(90925.38);
-touchUp(3, 595.36, 2478.29);
-usleep(1122111.38);
+touchDown(4, 572.16, 793.53);
+usleep(82459.29);
+touchUp(4, 572.16, 793.53);
+usleep(1137925.46);
 
-touchDown(4, 361.46, 371.60);
-usleep(174264.88);
-touchUp(4, 361.46, 371.60);
-usleep(714325.08);
+touchDown(5, 1140.48, 1903.58);
+usleep(107470.67);
+touchUp(5, 1140.48, 1903.58);
+usleep(1179639.58);
 
-touchDown(4, 357.59, 373.53);
-usleep(124826.12);
-touchUp(4, 357.59, 373.53);
-usleep(1478804.75);
+touchDown(6, 620.49, 2535.01);
+usleep(107540.04);
+touchUp(6, 620.49, 2535.01);
+usleep(307540.04);
 
-touchDown(1, 680.41, 775.24);
-usleep(157832.75);
-touchUp(1, 680.41, 775.24);
-usleep(747328.54);
+inputText(comments[Math.floor((Math.random()*comments.length))]);
 
-touchDown(1, 601.16, 783.89);
-usleep(157821.12);
-touchUp(1, 601.16, 783.89);
-usleep(1860557.92);
+touchDown(6, 1148.21, 1578.73);
+usleep(98450.29);
+touchUp(6, 1148.21, 1578.73);
 
-touchDown(6, 1163.67, 1896.85);
-usleep(156698.92);
-touchUp(6, 1163.67, 1896.85);
-usleep(1222031.21);
+touchDown(5, 1193.64, 657.03);
+usleep(115858.25);
+touchUp(5, 1193.64, 657.03);
+usleep(689467.50);
 
-touchDown(3, 587.63, 2511.92);
-usleep(106702.38);
-touchUp(3, 587.63, 2511.92);
-usleep(1055862.92);
+touchDown(3, 112.10, 203.40);
+usleep(91324.96);
+touchUp(3, 112.10, 203.40);
+usleep(1228688.54);
 
-touchDown(2, 871.78, 2138.06);
-usleep(99259.75);
-touchUp(2, 871.78, 2138.06);
-usleep(83586.04);
+touchDown(6, 1154.98, 1740.17);
+usleep(106849.08);
+touchUp(6, 1154.98, 1740.17);
+usleep(889662.92);
 
-touchDown(5, 925.91, 1905.46);
-usleep(91333.12);
-touchUp(5, 925.91, 1905.46);
-usleep(8057.67);
+touchDown(2, 828.29, 2276.45);
+usleep(82503.42);
+touchUp(2, 828.29, 2276.45);
+usleep(1129775.79);
 
-touchDown(4, 490.01, 2174.57);
-usleep(57330.54);
-touchUp(4, 490.01, 2174.57);
-usleep(142455.62);
+touchDown(3, 123.70, 221.65);
+usleep(98429.46);
+touchUp(3, 123.70, 221.65);
+usleep(756836.08);
 
-touchDown(1, 317.97, 1884.34);
-usleep(66102.00);
-touchUp(1, 317.97, 1884.34);
-usleep(589781.71);
+touchDown(1, 650.45, 1379.77);
+usleep(57564.25);
+touchUp(1, 650.45, 1379.77);
+usleep(872431.96);
 
-touchDown(6, 1183.00, 1584.47);
-usleep(91224.88);
-touchUp(6, 1183.00, 1584.47);
-usleep(1378876.08);
+touchDown(4, 300.57, 372.54);
+usleep(74332.12);
+touchUp(4, 300.57, 372.54);
+usleep(772709.38);
 
-touchDown(3, 1166.57, 661.83);
-usleep(123562.58);
-touchUp(3, 1166.57, 661.83);
-usleep(1022638.04);
+touchDown(5, 725.84, 2465.78);
+usleep(98400.71);
+touchUp(5, 725.84, 2465.78);
+usleep(3861987.08);
 
-touchDown(2, 102.43, 235.14);
-usleep(82915.92);
-touchUp(2, 102.43, 235.14);
-usleep(1163486.25);
+touchDown(6, 1105.68, 250.48);
+usleep(140750.96);
+touchUp(6, 1105.68, 250.48);
+usleep(681300.62);
 
-touchDown(5, 1146.28, 1744.97);
-usleep(123249.50);
-touchUp(5, 1146.28, 1744.97);
-usleep(881526.96);
+touchDown(6, 1103.75, 242.81);
+usleep(140478.75);
+touchUp(6, 1103.75, 242.81);
+usleep(748093.92);
 
-touchDown(4, 757.73, 2261.07);
-usleep(132157.04);
-touchUp(4, 757.73, 2261.07);
-usleep(1653772.46);
+touchDown(6, 1075.72, 257.21);
+usleep(165405.21);
+touchUp(6, 1075.72, 257.21);
+usleep(880137.12);
 
-touchDown(2, 96.63, 233.21);
-usleep(90383.92);
-touchUp(2, 96.63, 233.21);
-usleep(1405261.42);
+touchDown(6, 1040.93, 270.70);
+usleep(157525.75);
+touchUp(6, 1040.93, 270.70);
+usleep(830712.12);
 
-touchDown(1, 474.54, 1319.23);
-usleep(165952.88);
-touchUp(1, 474.54, 1319.23);
-usleep(1104854.62);
+touchDown(6, 1044.79, 269.72);
+usleep(149146.21);
+touchUp(6, 1044.79, 269.72);
+usleep(805626.29);
 
-touchDown(6, 338.26, 341.82);
-usleep(115943.38);
-touchUp(6, 338.26, 341.82);
-usleep(947284.42);
+touchDown(6, 1040.93, 243.76);
+usleep(166230.38);
+touchUp(6, 1040.93, 243.76);
+usleep(855579.25);
 
-touchDown(3, 259.01, 401.38);
-usleep(132418.17);
-touchUp(3, 259.01, 401.38);
-usleep(1362734.29);
+touchDown(6, 1035.13, 254.34);
+usleep(174315.33);
+touchUp(6, 1035.13, 254.34);
 
-touchDown(5, 1172.37, 225.50);
-usleep(90996.75);
-touchUp(5, 1172.37, 225.50);
-usleep(2948238.29);
+inputText(comments[Math.floor((Math.random()*comments.length))]);
 
-touchDown(5, 1147.24, 230.30);
-usleep(107854.58);
-touchUp(5, 1147.24, 230.30);
-usleep(2350747.12);
-
-touchDown(5, 1167.54, 201.47);
-usleep(116157.67);
-touchUp(5, 1167.54, 201.47);
-usleep(4203376.08);
-
-touchDown(5, 1140.48, 218.78);
-usleep(108140.50);
-touchUp(5, 1140.48, 218.78);
+touchDown(1, 1126.95, 1206.76);
+usleep(165572.08);
+touchUp(1, 1126.95, 1206.76);
