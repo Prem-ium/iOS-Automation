@@ -1,6 +1,6 @@
 const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp, inputText } = at
 
-let comments = ["Nice", "Awesome", "Woah", "cool"];
+let comments = ["Nice", "Awesome", "Woah", "cool","Nice", "Cool", "Woah", "Awesome", "Impressive", "Fantastic", "Wow", "Great", "Incredible", "Remarkable"];
 
 appActivate("com.ihoment.GoVeeSensor");
 usleep(1834951.00);
