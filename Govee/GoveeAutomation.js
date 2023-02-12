@@ -25,10 +25,21 @@ usleep(82459.29);
 touchUp(4, 572.16, 793.53);
 usleep(1137925.46);
 
+
+// Like video
+touchDown(1, 1168.51, 1709.41);
+usleep(98615.54);
+touchUp(1, 1168.51, 1709.41);
+
+
+
+// Comment on video
 touchDown(5, 1140.48, 1903.58);
 usleep(107470.67);
 touchUp(5, 1140.48, 1903.58);
 usleep(1179639.58);
+
+
 
 touchDown(6, 620.49, 2535.01);
 usleep(107540.04);
@@ -60,6 +71,7 @@ usleep(7438.33);
 touchUp(4, 111.13, 177.47);
 usleep(615924.50);
 
+// Upload Video
 touchDown(4, 126.60, 179.36);
 usleep(89933.79);
 touchUp(4, 126.60, 179.36);
@@ -229,6 +241,8 @@ touchDown(2, 137.23, 361.02);
 usleep(66285.67);
 touchUp(2, 137.23, 361.02);
 
+
+// Comment on Post
 touchDown(5, 68.60, 1878.56);
 usleep(74794.17);
 touchUp(5, 68.60, 1878.56);
@@ -248,5 +262,3 @@ usleep(2014553.17);
 touchDown(3, 1139.51, 1232.72);
 usleep(74410.21);
 touchUp(3, 1139.51, 1232.72);
-
-
