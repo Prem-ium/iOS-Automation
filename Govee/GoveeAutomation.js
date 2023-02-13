@@ -257,8 +257,15 @@ inputText(comments[Math.floor((Math.random()*comments.length))]);
 usleep(2014553.17);
 
 
-
-
 touchDown(3, 1139.51, 1232.72);
 usleep(74410.21);
 touchUp(3, 1139.51, 1232.72);
+
+usleep(149473.25);
+
+
+// like post 
+
+touchDown(3, 713.27, 2523.45);
+usleep(149473.25);
+touchUp(3, 713.27, 2523.45);
