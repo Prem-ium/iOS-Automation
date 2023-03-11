@@ -1,7 +1,4 @@
-let trigger = "";
-let token = "";
+TRIGGER="";
 
-req = new Request("https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=" + trigger + "&token=" + token + "&response=smartphone");
-
-req.load();
+new Request("https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=" + TRIGGER + "&response=json").load();
 Script.complete();
