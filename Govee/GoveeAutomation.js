@@ -269,3 +269,21 @@ usleep(149473.25);
 touchDown(3, 713.27, 2523.45);
 usleep(149473.25);
 touchUp(3, 713.27, 2523.45);
+
+
+// New Comment Like Attempt
+touchDown(5, 992.60, 649.36);
+usleep(98935.96);
+touchUp(5, 992.60, 649.36);
+usleep(1412068.38);
+
+touchDown(6, 841.82, 943.44);
+usleep(90812.04);
+touchUp(6, 841.82, 943.44);
+usleep(1245840.83);
+
+touchDown(1, 783.83, 2500.39);
+usleep(89931.75);
+touchUp(1, 783.83, 2500.39);
+
+// New Topic
