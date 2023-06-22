@@ -1,45 +1,57 @@
-let key = "GOVER-API-KEY";
+const key = "GOVER-API-KEY";
+const device = "MAC:ADD:ADDY";
+const model = "MODEL-HERE";
 
-let device = "MAC:ADD:ADDY";
-let model = "MODEL-HERE";
-
-
-let req = new Request("https://developer-api.govee.com/v1/devices/state?device=" + device + "&model=" + model);
-req.method = "GET";
-
-let headers = {
-  "Govee-API-Key":key,
-  "Content-Type":"application/json",
-  "device": device
-};
-
-req.headers = headers;
-let response = await req.loadJSON();
-console.log(response);
-
-const powerState = response.data.properties.find(property => property.hasOwnProperty("powerState")).powerState;
-
-req = new Request("https://developer-api.govee.com/v1/devices/control");
-req.method = "PUT";
-req.headers = {
+const fetchDeviceState = async () => {
+  const url = `https://developer-api.govee.com/v1/devices/state?device=${device}&model=${model}`;
+  const headers = {
     "Govee-API-Key": key,
     "Content-Type": "application/json",
+    "device": device
+  };
+
+  const req = new Request(url);
+  req.method = "GET";
+  req.headers = headers;
+
+  const response = await req.loadJSON();
+  console.log(response);
+
+  return response;
 };
 
-let cmd = {
-  name: "turn",
-  value: (powerState === "on") ? "off" : "on"
+const toggleDevicePower = async () => {
+  const currentState = await fetchDeviceState();
+  const powerState = currentState.data.properties.find(property => property.hasOwnProperty("powerState")).powerState;
+  const newPowerState = powerState === "on" ? "off" : "on";
+
+  const url = "https://developer-api.govee.com/v1/devices/control";
+  const headers = {
+    "Govee-API-Key": key,
+    "Content-Type": "application/json"
+  };
+
+  const req = new Request(url);
+  req.method = "PUT";
+  req.headers = headers;
+
+  const cmd = {
+    name: "turn",
+    value: newPowerState
+  };
+  console.log(cmd);
+
+  const requestBody = {
+    device,
+    model,
+    cmd
+  };
+  req.body = JSON.stringify(requestBody);
+
+  const response = await req.loadJSON();
+  console.log(response);
 };
-console.log(cmd);
-req.body = JSON.stringify({
-    "device": device,
-    "model": model,
-    "cmd": cmd
-});
 
-response = await req.loadJSON();
-console.log(response);
-
+toggleDevicePower();
 
 Script.complete();
-
