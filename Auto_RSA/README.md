@@ -8,5 +8,5 @@ The program will prompt you with a dialogue before executing the auto-touch prog
 Currently, robinhood is the only platform I have finished (with improvements incoming soon), with sofi/public being more 50/50. Others will slowly be added in the future.
 
 
-
-Status: Incomplete project.
+## Archived
+This specific script is archived. No updates will be provided for this specific project. You may instead considering using my other project to automate your stock orders across 7+ brokerages, <a href="https://github.com/Prem-ium/Auto-StockTrader">Auto-StockTrader</a>
