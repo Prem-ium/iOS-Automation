@@ -11,7 +11,7 @@ https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac
 
 ### Pre-requisites
 - This script requires the very first album created to be one populated by videos you wish to upload to Govee.
-- Compatible with v5.4.22 (No current plans to implement an automation for the latest version.) You may use AppStore++ to downgrade the Govee Home application to v5.4.22
+- Legacy script compatible with v5.4.22--You may use AppStore++ to downgrade the Govee Home application to v5.4.22, otherwise you can use the beta script for versions (v6.0.10+) with less stability.
 
 # Govee Power Toggle
 Very simple Scriptable script to run with your API & MAC credentials to toggle your lights/devices on or off. 

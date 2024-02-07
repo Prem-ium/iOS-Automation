@@ -1,3 +1,5 @@
+// Legacy Script for Govee v5.4.22 
+
 const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp, inputText } = at
 
 let comments = ["Nice", "Awesome", "Woah", "cool","Nice", "Cool", "Woah", "Awesome", "Impressive", "Fantastic", "Wow", "Great", "Incredible", "Remarkable"];
