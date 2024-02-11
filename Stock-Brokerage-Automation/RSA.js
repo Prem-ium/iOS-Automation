@@ -122,8 +122,6 @@ const orientations = [INTERFACE_ORIENTATION_TYPE.PORTRAIT];
 const result = at.dialog({ controls, orientations });
 
 if (result == 1) {
-    //alert("name:%s, birthday:%s, gender:%d", nameInput.value, positionPicker.value, developerSwitch.value)
-    alert("Starting the script.");
     usleep(3903428.46);
     if (sofi.value == 1) {
         sofiInvest(nameInput)
