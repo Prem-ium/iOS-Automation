@@ -12,9 +12,11 @@ Automation script does daily tasks to earn user Govee points which can be redeem
 - `GoveeAutomation_Beta.js`- Compatiable with Govee App v6.0.10+
 - `GoveeAutomation_Legacy.js`- Compatiable with Govee App v5.4.22
 
+https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac5e-962170c5d557
+
 `PowerToggle-Govee-API.js`- Simple script utilizes the Govee API to fetch & toggle the power state of your devices. This script is executable using [Sciptable](https://scriptable.app/) or any JavaScript interpreter for executing JavaScript code.
 
-### Archived Projects (No Longer Maintained)
+# Archived Projects (No Longer Maintained)
 The following scripts are not being regularly updated or maintained, they may still work but are operating as a 'best attempt'
 
 #### Taco Bell
