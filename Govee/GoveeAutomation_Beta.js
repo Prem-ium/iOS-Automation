@@ -29,7 +29,22 @@ touchDown(1, 634.99, 2471.56);
 usleep(98263.21);
 touchUp(1, 634.99, 2471.56);
 
-usleep(1834951.00); 
+// Switch to video tab
+touchDown(4, 255.14, 1746.90);
+usleep(82935.04);
+touchUp(4, 255.14, 1746.90);
+usleep(731375.46);
+
+touchDown(6, 277.37, 1596.00);
+usleep(90687.38);
+touchUp(6, 277.37, 1596.00);
+
+touchDown(1, 566.36, 2260.12);
+usleep(132129.04);
+touchUp(1, 566.36, 2260.12);
+usleep(855508.58);
+
+usleep(1300000.00); 
 
 // Click latest post, like video, & click comments
 touchDown(5, 615.66, 1918.96);
@@ -53,7 +68,7 @@ touchUp(2, 300.57, 2478.29);
 
 
 // Type Comment
-usleep(2014553.17);
+usleep(1614553.17);
 inputText(comments[Math.floor((Math.random()*comments.length))]);
 usleep(2014553.17);
 
@@ -275,8 +290,6 @@ usleep(2692558.79);
 touchDown(2, 292.84, 2507.12);
 usleep(115089.00);
 touchUp(2, 292.84, 2507.12);
-
-// comment
 
 // submit
 touchDown(5, 1120.18, 1219.27);
