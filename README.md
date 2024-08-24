@@ -1,5 +1,7 @@
 <h1 align="center"> ⚙️ iOS AutoTouch Projects ⚙️ </h1>
-
+<p align="center">
+    <img src="https://github.dev/Prem-ium/iOS-Automation/github/Assets/iOS-Automation.jpeg" alt="iOS AutoTouch Projects Banner" style="height: 150px;">
+</p>
 <p align="center">An <i>awesome</i> repository containing scripts and projects for automating various tasks using AutoTouch for iOS.</p>
 
 <p align="right"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/><a href="https://github.com/sponsors/Prem-ium" target="_blank"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AA" alt="Github Sponsor"/></a></p>
