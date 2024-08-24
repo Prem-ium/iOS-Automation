@@ -1,6 +1,6 @@
 <h1 align="center"> ⚙️ iOS AutoTouch Projects ⚙️ </h1>
 <p align="center">
-    <img src="https://github.dev/Prem-ium/iOS-Automation/github/Assets/iOS-Automation.jpeg" alt="iOS AutoTouch Projects Banner" style="height: 150px;">
+    <img src="https://github.com/Prem-ium/iOS-Automation/blob/main/.github/Assets/iOS-Automation.jpeg?raw=true" alt="iOS AutoTouch Projects Banner" style="height: 450px;">
 </p>
 <p align="center">An <i>awesome</i> repository containing scripts and projects for automating various tasks using AutoTouch for iOS.</p>
 
