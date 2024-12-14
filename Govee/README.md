@@ -6,12 +6,16 @@
 - User Engagement (Liking & browsing topic posts)
 - Roughly 24-26 daily points can be automated daily. An extra 20 points can be made by making a simple topic post, coming out to 44-46 points per day with minimum effort. 
 
-### Video Example
-https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac5e-962170c5d557
+---
+### Free Version, Video Demo
+<video src="https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac5e-962170c5d557" controls="controls" style="max-width: 100%; height: auto;">
+  Your browser does not support video tags.
+  <a href="https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac5e-962170c5d557">Click to view video</a>
+</video>
 
 ### Pre-requisites
 - This script requires the very first album created to be one populated by videos you wish to upload to Govee.
-- Legacy script compatible with v5.4.22--You may use AppStore++ to downgrade the Govee Home application to v5.4.22, otherwise you can use the beta script for versions (v6.0.10+) with less stability.
+- Legacy script compatible with v5.4.22--You may use AppStore++ to downgrade the Govee Home application to v5.4.22, otherwise you can use the beta script for versions (v6.0.10+) with less stability [Sponsors Only](https://github.com/sponsors/Prem-ium).
 
 # Govee Power Toggle
 Very simple Scriptable script to run with your API & MAC credentials to toggle your lights/devices on or off. 
