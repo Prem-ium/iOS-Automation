@@ -26,6 +26,7 @@ Automates daily tasks in the Govee app to earn points redeemable for Govee produ
   Your browser does not support video tags.
   <a href="https://github.com/user-attachments/assets/0f0db25b-5fc8-4985-a395-b72238e65e9a">Click to view video</a>
 </video>
+
 - **`GoveeAutomation_Legacy.js`**: Compatible with Govee App v5.4.22.
 - **`PowerToggle-Govee-API.js`**: Uses the Govee API to fetch and toggle the power state of devices. Works with [Scriptable](https://scriptable.app/) or any JavaScript interpreter.
 
