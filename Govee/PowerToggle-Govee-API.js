@@ -54,4 +54,4 @@ const toggleDevicePower = async () => {
 
 toggleDevicePower();
 
-Script.complete();
+//Script.complete();
