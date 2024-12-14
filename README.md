@@ -22,11 +22,11 @@
 ### Govee Automation
 Automates daily tasks in the Govee app to earn points redeemable for Govee products. Requires [AutoTouch](https://autotouch.net/).
 - **`GoveeAutomation_Beta.js`**: Compatible with Govee App v6.0.10+ (Exclusive to sponsors).
+<video src="https://github.com/user-attachments/assets/0f0db25b-5fc8-4985-a395-b72238e65e9a" controls="controls" style="max-width: 100%; height: auto;">
+  Your browser does not support video tags.
+  <a href="https://github.com/user-attachments/assets/0f0db25b-5fc8-4985-a395-b72238e65e9a">Click to view video</a>
+</video>
 - **`GoveeAutomation_Legacy.js`**: Compatible with Govee App v5.4.22.
-
-A video demonstration is available:
-https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac5e-962170c5d557
-
 - **`PowerToggle-Govee-API.js`**: Uses the Govee API to fetch and toggle the power state of devices. Works with [Scriptable](https://scriptable.app/) or any JavaScript interpreter.
 
 ---
