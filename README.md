@@ -44,7 +44,11 @@ Automates stock orders across multiple brokerage accounts for a specified stock 
 Automates the "Daily Check-In" on the Rewards page to earn points. Requires [AutoTouch](https://autotouch.net/).
 
 ---
+## License
 
+[MIT](https://choosealicense.com/licenses/mit/)
+
+---
 ## 🛠️ Experiencing Issues?
 As of **12/14/2024**, public issue reporting is disabled. For direct support on bugs or issues, consider becoming a GitHub Sponsor at the **Silver** or **Gold** tier.
 
