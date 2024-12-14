@@ -1,47 +1,67 @@
-<h1 align="center"> ⚙️ iOS AutoTouch Projects ⚙️ </h1>
+# ⚙️ iOS AutoTouch Projects ⚙️
+
 <p align="center">
     <img src="https://github.com/Prem-ium/iOS-Automation/blob/main/.github/Assets/iOS-Automation.jpeg?raw=true" alt="iOS AutoTouch Projects Banner">
 </p>
-<p align="center">An <i>awesome</i> repository containing scripts and projects for automating various tasks using AutoTouch for iOS.</p>
 
-<p align="right"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/><a href="https://github.com/sponsors/Prem-ium" target="_blank"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AA" alt="Github Sponsor"/></a></p>
+<p align="center">
+    A comprehensive repository featuring scripts and projects to automate various tasks using AutoTouch for iOS.
+</p>
 
-# Scripts
+<p align="center">
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+    <a href="https://github.com/sponsors/Prem-ium" target="_blank">
+        <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA" alt="GitHub Sponsor"/>
+    </a>
+</p>
+
+---
+
+## 📜 Scripts
 
 ### Govee Automation
-Govee Automation: This script must be executed using [AutoTouch](https://autotouch.net/). 
-Automation script does daily tasks to earn user Govee points which can be redeemeded for Govee products. 
-- `GoveeAutomation_Beta.js`- Compatiable with Govee App v6.0.10+
-- `GoveeAutomation_Legacy.js`- Compatiable with Govee App v5.4.22
+Automates daily tasks in the Govee app to earn points redeemable for Govee products. Requires [AutoTouch](https://autotouch.net/).
+- **`GoveeAutomation_Beta.js`**: Compatible with Govee App v6.0.10+ (Exclusive to sponsors).
+- **`GoveeAutomation_Legacy.js`**: Compatible with Govee App v5.4.22.
 
+A video demonstration is available:
 https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac5e-962170c5d557
 
-`PowerToggle-Govee-API.js`- Simple script utilizes the Govee API to fetch & toggle the power state of your devices. This script is executable using [Sciptable](https://scriptable.app/) or any JavaScript interpreter for executing JavaScript code.
+- **`PowerToggle-Govee-API.js`**: Uses the Govee API to fetch and toggle the power state of devices. Works with [Scriptable](https://scriptable.app/) or any JavaScript interpreter.
 
-# Archived Projects (No Longer Maintained)
-The following scripts are not being regularly updated or maintained, they may still work but are operating as a 'best attempt'
+---
 
-#### Taco Bell
-Automate the creation of a brand new Taco Bell Rewards account, which provides the benefit of receiving 'new user' coupons and freebie meals on sign-up. Paired extremely well when used with Jailbreak tweaks such as Slices to create multiple accounts to receive the best possible amount of new user promotions. This script must be executed using [AutoTouch](https://autotouch.net/). 
+## 🗂️ Archived Projects (No Longer Maintained)
+These scripts are no longer updated but may still work as-is.
 
-#### Stock Brokerage Automation
-Automate brokerage stock orders on multiple different brokerages to buy the same specified stock ticker across multiple accounts. Although this is no longer maintained, I am actively building a project named [Auto-StockTrader](https://github.com/Prem-ium/Auto-StockTrader) which accomplishes this same task on a larger scale, through the use of Selenium IDE on PC. 
+### Taco Bell
+Automates the creation of Taco Bell Rewards accounts, allowing users to receive sign-up coupons and free meals. Works well with jailbreak tweaks like *Slices* for creating multiple accounts. Requires [AutoTouch](https://autotouch.net/).
 
-This script must be executed using [AutoTouch](https://autotouch.net/). 
+### Stock Brokerage Automation
+Automates stock orders across multiple brokerage accounts for a specified stock ticker. For an advanced version, check out [Auto-StockTrader](https://github.com/Prem-ium/Auto-StockTrader), built using Selenium IDE for PC. Requires [AutoTouch](https://autotouch.net/).
 
-#### SHEIN
-Automate 'Daily Check-In" in Rewards page to earn daily points. This script must be executed using [AutoTouch](https://autotouch.net/). 
+### SHEIN
+Automates the "Daily Check-In" on the Rewards page to earn points. Requires [AutoTouch](https://autotouch.net/).
 
-# Donations
-If you appreciate my work and would like to show your support, there are two convenient ways to make a donation:
+---
 
-1. **GitHub Sponsors**
-   - [Donate via GitHub Sponsors](https://github.com/sponsors/Prem-ium)
-   - This is the preferred donation method as you can place donations with no transaction fees & possibily receive perks for your donation.
-   - [![GitHub Sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/Prem-ium)
+## 🛠️ Experiencing Issues?
+As of **12/14/2024**, public issue reporting is disabled. For direct support on bugs or issues, consider becoming a GitHub Sponsor at the **Silver** or **Gold** tier.
 
-2. **Buy Me A Coffee**
-   - [Donate via Buy Me A Coffee](https://www.buymeacoffee.com/prem.ium)
-   - [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/prem.ium)
+[![Sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/Prem-ium)
 
-Your generous donations will go a long way in helping me cover the expenses associated with developing new features and promoting the project to a wider audience. I extend my heartfelt gratitude to all those who have already contributed. Thank you for your support!
+---
+
+## 💰 Donations
+Support the development and maintenance of this repository through donations:
+
+### 1. **GitHub Sponsors**
+- [Donate via GitHub Sponsors](https://github.com/sponsors/Prem-ium)
+- Preferred method with no transaction fees. Sponsors may receive exclusive perks.
+- [![GitHub Sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/Prem-ium)
+
+### 2. **Buy Me A Coffee**
+- [Donate via Buy Me A Coffee](https://www.buymeacoffee.com/prem.ium)
+- [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/prem.ium)
+
+Your generous contributions help cover development expenses and promote this project. Thank you for your support!
