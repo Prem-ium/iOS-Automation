@@ -1,4 +1,4 @@
-# ⚙️ iOS AutoTouch Projects ⚙️
+<h1 align="center"> ⚙️ iOS AutoTouch Projects ⚙️ </h1>
 
 <p align="center">
     <img src="https://github.com/Prem-ium/iOS-Automation/blob/main/.github/Assets/iOS-Automation.jpeg?raw=true" alt="iOS AutoTouch Projects Banner">
