@@ -1,8 +1,15 @@
-// Legacy Script for Govee v5.4.22 
+const {
+    touchDown,
+    touchMove,
+    touchUp,
+    usleep,
+    appActivate,
+    keyDown,
+    keyUp,
+    inputText
+} = at
 
-const { touchDown, touchMove, touchUp, usleep, appActivate, keyDown, keyUp, inputText } = at
-
-let comments = ["Nice", "Awesome", "Woah", "cool","Nice", "Cool", "Woah", "Awesome", "Impressive", "Fantastic", "Wow", "Great", "Incredible", "Remarkable"];
+let comments = ["Good", "Okay", "Interesting", "Nice", "Fine", "Well done", "Not bad", "Alright", "Good effort", "Decent", "Fair", "Good work", "Acceptable", "Reasonable"];
 
 appActivate("com.ihoment.GoVeeSensor");
 usleep(1834951.00);
@@ -49,7 +56,7 @@ touchUp(6, 620.49, 2535.01);
 usleep(307540.04);
 
 usleep(2014553.17);
-inputText(comments[Math.floor((Math.random()*comments.length))]);
+inputText(comments[Math.floor((Math.random() * comments.length))]);
 usleep(2014553.17);
 
 touchDown(6, 1123.08, 1553.71);
@@ -255,7 +262,7 @@ usleep(99265.67);
 touchUp(1, 467.78, 2553.26);
 
 usleep(70000);
-inputText(comments[Math.floor((Math.random()*comments.length))]);
+inputText(comments[Math.floor((Math.random() * comments.length))]);
 usleep(2014553.17);
 
 
@@ -287,5 +294,3 @@ usleep(1245840.83);
 touchDown(1, 783.83, 2500.39);
 usleep(89931.75);
 touchUp(1, 783.83, 2500.39);
-
-// New Topic
