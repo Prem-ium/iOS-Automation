@@ -8,9 +8,10 @@
 
 ---
 ### Free Version, Video Demo
-<video src="https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac5e-962170c5d557" controls="controls" style="max-width: 100%; height: auto;">
+
+<video src="https://github.com/user-attachments/assets/de324da9-2fbd-482e-9c48-a57cd4d77957" controls="controls" style="max-width: 100%; height: auto;">
   Your browser does not support video tags.
-  <a href="https://github.com/Prem-ium/iOS-Automation/assets/80719066/e410cbf7-c990-431e-ac5e-962170c5d557">Click to view video</a>
+  <a href="https://github.com/user-attachments/assets/de324da9-2fbd-482e-9c48-a57cd4d77957">Click to view video</a>
 </video>
 
 ### Pre-requisites
@@ -18,4 +19,4 @@
 - Legacy script compatible with v5.4.22--You may use AppStore++ to downgrade the Govee Home application to v5.4.22, otherwise you can use the beta script for versions (v6.0.10+) with less stability [Sponsors Only](https://github.com/sponsors/Prem-ium).
 
 # Govee Power Toggle
-Very simple Scriptable script to run with your API & MAC credentials to toggle your lights/devices on or off. 
+A lightweight Scriptable/JavaScript utility to toggle Govee devices on or off using your API and MAC credentials.
