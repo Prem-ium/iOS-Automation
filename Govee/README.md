@@ -1,22 +1,27 @@
-# Govee Points Automation
-### About
-`GoveeAutomation.js` allows a user to automate the daily tasks that earn you user points on the Govee platform. There are multiple features including automated:
-- Video & Topic Commenting (Plus liking/engaging, extra bonus points)
-- Video Uploading
-- User Engagement (Liking & browsing topic posts)
-- Roughly 24-26 daily points can be automated daily. An extra 20 points can be made by making a simple topic post, coming out to 44-46 points per day with minimum effort. 
+ # 1. Govee Points Automation  
+
+### About  
+`GoveeAutomation.js` automates daily tasks to earn user points on the Govee platform. Key features include:  
+- **Video & Topic Commenting**: Automatically comment, like, and engage for bonus points.  
+- **Video Uploading**: Simplifies video uploads for easy point collection.  
+- **User Engagement**: Automates likes and browsing through topic posts.  
+
+You can earn approximately **24-26 points daily** using automation. By creating a simple topic post, you can add **20 more points**, totaling **44-46 points per day** with minimal effort.  
+
+### Prerequisites  
+- **Video Album Requirement**: Your first album must contain the videos you want to upload to Govee.  
+- **Compatibility**:  
+  - The legacy script supports **v5.4.22** of the Govee Home app. Use tools like AppStore++ to downgrade if needed.  
+  - Updated script supports **v6.0.10+** for [Gold Sponsors](https://github.com/sponsors/Prem-ium).
+    
+### Free Version: Video Demo: 
+<video src="https://github.com/user-attachments/assets/de324da9-2fbd-482e-9c48-a57cd4d77957" controls style="max-width: 100%; height: auto;">  
+Your browser does not support video tags.  
+<a href="https://github.com/user-attachments/assets/de324da9-2fbd-482e-9c48-a57cd4d77957">Click to view the video</a>  
+</video>  
 
 ---
-### Free Version, Video Demo
 
-<video src="https://github.com/user-attachments/assets/de324da9-2fbd-482e-9c48-a57cd4d77957" controls="controls" style="max-width: 100%; height: auto;">
-  Your browser does not support video tags.
-  <a href="https://github.com/user-attachments/assets/de324da9-2fbd-482e-9c48-a57cd4d77957">Click to view video</a>
-</video>
+# 2. Govee Power Toggle  
 
-### Pre-requisites
-- This script requires the very first album created to be one populated by videos you wish to upload to Govee.
-- Legacy script compatible with v5.4.22--You may use AppStore++ to downgrade the Govee Home application to v5.4.22, otherwise you can use the beta script for versions (v6.0.10+) with less stability [Sponsors Only](https://github.com/sponsors/Prem-ium).
-
-# Govee Power Toggle
 A lightweight Scriptable/JavaScript utility to toggle Govee devices on or off using your API and MAC credentials.
